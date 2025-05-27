@@ -1,5 +1,5 @@
 {
-  "name": "dgrebuild",
+  "name": "data-forum-kz",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -68,10 +68,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flashgrinder/dgrebuild.git"
+    "url": "git+https://github.com/flashgrinder/data-forum-kz.git"
   },
   "bugs": {
-    "url": "https://github.com/flashgrinder/dgrebuild/issues"
+    "url": "https://github.com/flashgrinder/data-forum-kz/issues"
   },
-  "homepage": "https://github.com/flashgrinder/dgrebuild#readme"
+  "homepage": "https://github.com/flashgrinder/data-forum-kz#readme"
 }
