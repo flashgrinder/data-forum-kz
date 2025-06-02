@@ -1,13 +1,18 @@
     </main>
     <!-- /. MAIN -->
-
+    <?php $currentLanguage  = pll_current_language(); ?>
     <!-- Footer -->
     <footer class="footer gs-reveal">
         <div class="footer__body container">
             <div class="footer__inner">
                 <div class="footer__column">
                     <div class="footer__title ">
-                        Мы в соц.сетях:
+                        <?php if($currentLanguage == 'en') : ?>
+                            We are in social networks:
+                        <?php endif; ?>
+                        <?php if($currentLanguage == 'az') : ?>
+                            Sosial şəbəkələrdəyik:
+                        <?php endif; ?>
                     </div>
                     <ul class="footer__links">
                         <li class="">

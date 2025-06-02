@@ -1,3 +1,4 @@
+<?php $currentLanguage  = pll_current_language(); ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 
@@ -37,9 +38,14 @@
                     </svg>
                 </div>
                 <h3 class="modal__title modal__field--anim title title--large title--dark title--w-regular center">
-                    Регистрация
+                    <?php if($currentLanguage == 'en') : ?>
+                        Register
+                    <?php endif; ?>
+                    <?php if($currentLanguage == 'az') : ?>
+                        Qeydiyyatdan keçin
+                    <?php endif; ?>
                 </h3>
-                <script type="text/javascript" async="async" defer="defer" charset="UTF-8" src="https://timepad.ru/js/tpwf/loader/min/loader.js" data-timepad-customized="30874" data-twf2s-event--id="3286670" data-timepad-widget-v2="event_register"></script>
+                <script type="text/javascript" async="async" defer="defer" charset="UTF-8" src="https://timepad.ru/js/tpwf/loader/min/loader.js" data-timepad-customized="331553" data-twf2s-event--id="3396060" data-timepad-widget-v2="event_register"></script>
 <!--                <form action="https://email.dis-group.info/add_subscriber.html" accept-charset="utf-8" method="post" class="modal__form wpcf7-form fckng-btfl-frm">-->
                     <!-- Fields -->
 <!--                    <div class="modal__field">-->
@@ -86,9 +92,14 @@
                     </svg>
                 </div>
                 <h3 class="modal__title modal__field--anim title title--large title--dark title--w-regular center">
-                    Регистрация
+                    <?php if($currentLanguage == 'en') : ?>
+                        Register
+                    <?php endif; ?>
+                    <?php if($currentLanguage == 'az') : ?>
+                        Qeydiyyatdan keçin
+                    <?php endif; ?>
                 </h3>
-                <script type="text/javascript" async="async" defer="defer" charset="UTF-8" src=https://timepad.ru/js/tpwf/loader/min/loader.js data-timepad-customized="30874" data-twf2s-event--id="3076946" data-timepad-widget-v2="event_register"></script>
+                <script type="text/javascript" async="async" defer="defer" charset="UTF-8" src="https://timepad.ru/js/tpwf/loader/min/loader.js" data-timepad-customized="331553" data-twf2s-event--id="3396060" data-timepad-widget-v2="event_register"></script>
             </div>
         </div>
     </div>
@@ -111,7 +122,7 @@
                             </a>
                         </li>
                         <li class="header__menu-item menu__item js-anchor-link">
-                            <a href="#programm" class="menu__link">
+                            <a href="#program" class="menu__link">
                                 Программа
                             </a>
                         </li>
@@ -120,6 +131,19 @@
                                 Партнёры
                             </a>
                         </li>
+                        <style>
+                            .lang-item {
+                                margin-left: 20px;
+                                list-style: none;
+                            }
+                            .lang-item span {
+                                color: white;
+                            }
+                            .lang-item a {
+                                text-decoration: none;
+                            }
+                        </style>
+                        <? pll_the_languages(array( 'show_flags' => 1,'show_names' => 0, 'dropdown' => 0 )); ?>
                     </ul>
                 </nav>
                 <div class="header__action hide">

@@ -862,10 +862,6 @@ img {
   border: 1px solid var(--color-dark-violet);
 }
 
-.modal__input::-webkit-input-placeholder {
-  color: var(--color-light-gray);
-}
-
 .modal__input::-moz-placeholder {
   color: var(--color-light-gray);
 }
@@ -1201,7 +1197,7 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: url("../img/main-screen-bg.png") center no-repeat;
+  background: url("../img/main-screen-bg.jpg") center no-repeat;
   background-size: cover;
   overflow: hidden;
 }
