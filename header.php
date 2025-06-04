@@ -113,24 +113,39 @@
                     <ul class="header__menu-list menu__list">
                         <li class="header__menu-item menu__item js-anchor-link">
                             <a href="#about" class="menu__link">
-                                Ключевые направления
+                                <?php if($currentLanguage == 'en') : ?>
+                                    Focus areas
+                                <?php endif; ?>
+                                <?php if($currentLanguage == 'az') : ?>
+                                    Forumun əsas istiqamətləri
+                                <?php endif; ?>
                             </a>
                         </li>
                         <li class="header__menu-item menu__item js-anchor-link">
                             <a href="#speakers" class="menu__link">
-                                Спикеры
+                                <?php if($currentLanguage == 'en') : ?>
+                                    Speakers
+                                <?php endif; ?>
+                                <?php if($currentLanguage == 'az') : ?>
+                                    Spikerlər
+                                <?php endif; ?>
                             </a>
                         </li>
                         <li class="header__menu-item menu__item js-anchor-link">
                             <a href="#program" class="menu__link">
-                                Программа
+                                <?php if($currentLanguage == 'en') : ?>
+                                    Agenda
+                                <?php endif; ?>
+                                <?php if($currentLanguage == 'az') : ?>
+                                    Proqram
+                                <?php endif; ?>
                             </a>
                         </li>
-                        <li class="header__menu-item menu__item js-anchor-link">
-                            <a href="#partners" class="menu__link">
-                                Партнёры
-                            </a>
-                        </li>
+<!--                        <li class="header__menu-item menu__item js-anchor-link">-->
+<!--                            <a href="#partners" class="menu__link">-->
+<!--                                Партнёры-->
+<!--                            </a>-->
+<!--                        </li>-->
                         <style>
                             .lang-item {
                                 margin-left: 20px;
@@ -153,9 +168,6 @@
                 </div>
             </div>
             <div class="header__logo logo">
-                <a href="https://dis-group.world" class="header__logo logo">
-                    <img src="<?php echo STANDART_DIR ?>img/logo.svg" alt="" class="header__logo-img logo__img">
-                </a>
                 <a href="https://dis-group.world" class="header__logo logo">
                     <img src="<?php echo STANDART_DIR ?>img/deonix.png" alt="" class="header__logo-img logo__img">
                 </a>

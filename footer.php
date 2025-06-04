@@ -16,7 +16,7 @@
                     </div>
                     <ul class="footer__links">
                         <li class="">
-                            <a href="https://www.linkedin.com/company/dig-group-data-integration-software-/posts/" class="footer__link">Linkedin</a>
+                            <a href="https://www.linkedin.com/company/deoni-x/posts/?feedView=all" class="footer__link">Linkedin</a>
                         </li>
                         <li class="">
                             <a href="https://www.youtube.com/channel/UCA_JNA9tmm3yVYsyg-NgmTg" class="footer__link">YouTube</a>
@@ -25,7 +25,7 @@
                             <a href="https://www.facebook.com/profile.php?id=100063803151780" class="footer__link">Facebook</a>
                         </li>
                         <li class="">
-                            <a href="https://www.instagram.com/dis.group/" class="footer__link">Instagram</a>
+                            <a href="https://www.instagram.com/deonix.ai/" class="footer__link">Instagram</a>
                         </li>
                     </ul>
                 </div>

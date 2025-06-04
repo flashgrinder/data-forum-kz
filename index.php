@@ -18,7 +18,12 @@
                             Data & AI Forum 2025
                         </h1>
                         <h3 class="title title--medium title--white title--w-bold center" style="margin-top: 30px">
-                            Экономика данных | Управление данными | AI-агенты | Тренды будущего
+                            <?php if($currentLanguage == 'en') : ?>
+                                Data Economy | Data Management | AI Agents | Future Trends
+                            <?php endif; ?>
+                            <?php if($currentLanguage == 'az') : ?>
+                                Məlumat İqtisadiyyatı | Məlumatların İdarəolunması | Süni İntellekt Agentləri | Gələcəyin Trendləri
+                            <?php endif; ?>
                         </h3>
                         <div class="main-screen__info-event">
                             <?php if($currentLanguage == 'en') : ?>
@@ -68,89 +73,179 @@
     <section class="about block-padding">
         <div class="about__body container">
             <h2 class="about__heading title title--big title--dark title--w-semibold title--indent center">
-                На старт! Внимание! ИИ!
+                <?php if($currentLanguage == 'en') : ?>
+                    Start! Ready! AI!
+                <?php endif; ?>
+                <?php if($currentLanguage == 'az') : ?>
+                    Başla! Diqqət! Süni İntellekt!
+                <?php endif; ?>
             </h2>
             <div class="about__descr text text--large text--dark text--w-regular center">
-                Цель форума — помочь компаниям раскрыть ценность своих данных, внедрить передовые AI-решения и выстроить эффективные процессы управления информацией, что позволит получить стратегическое преимущество. «Цифровое перерождение 2025» соберет ведущих CDO, CIO, AI-экспертов и бизнес-лидеров, принимающих ключевые решения в индустрии данных.
+                <?php if($currentLanguage == 'en') : ?>
+                    The goal of the forum is to help companies unlock the value of their data, implement cutting-edge AI solutions, and build effective information management processes that provide a strategic advantage. Data & AI Forum 2025 will bring together leading CDOs, CIOs, CFOs, AI experts, and business leaders who make key decisions in the data and AI industries.
+                <?php endif; ?>
+                <?php if($currentLanguage == 'az') : ?>
+                    Forumun məqsədi şirkətlərə məlumatlarının dəyərini açmağa, qabaqcıl süni intellekt həllərini tətbiq etməyə və məlumatların effektiv idarəolunması proseslərini qurmağa kömək etməkdir — bu isə onlara strateji üstünlük verəcək. Data & AI Forum 2025, məlumat və süni intellekt sahəsində əsas qərarları qəbul edən aparıcı CDO, CIO, CFO, süni intellekt mütəxəssisləri və biznes liderlərini bir araya gətirəcək.
+                <?php endif; ?>
             </div>
             <div class="about__descr text text--large text--dark text--w-regular center">
-                Будем рады видеть вас в числе участников!
+                <?php if($currentLanguage == 'en') : ?>
+                    We look forward to seeing you among the participants!
+                <?php endif; ?>
+                <?php if($currentLanguage == 'az') : ?>
+                    Sizi iştirakçılar arasında görməkdən məmnun olarıq!
+                <?php endif; ?>
             </div>
         </div>
     </section>
     <!-- /. About -->
 
+<?php if($currentLanguage == 'en') : ?>
     <!-- About -->
     <section class="about block-padding" id="about" style="background: #f2f2f2;">
         <div class="about__body container">
             <h2 class="about__heading title title--big title--dark title--w-semibold title--indent center">
-                Ключевые направления форума
+                Focus areas
             </h2>
             <div class="about__grid-wysiwyg">
                 <div class="about__wysiwyg">
                     <h3 class="title title--small title--blue title--w-bold">
-                        Экономика данных и ИИ: стратегический императив цифрового государства
+                        Data Economy and AI: A Strategic Imperative for the Digital State
                     </h3>
                     <p class="text text--small text--dark text--w-regular">
-                        Развитие национальных стратегий области управления данными и ИИ как вопрос государственной важности. Как найти баланс между технологическим суверенитетом и международной кооперацией. Можно ли обеспечить стратегический контроль над критическими данными и ИИ-системами при выстраивании взаимовыгодных отношений собственных и международных экосистем.
-                    </p>
+                        Development of national strategies in data and AI management. How to strike a balance between technological sovereignty and international cooperation. Is it possible to ensure strategic control over critical data and AI systems while building mutually beneficial relationships between local and international ecosystems?                    </p>
                 </div>
                 <div class="about__wysiwyg">
                     <h3 class="title title--small title--blue title--w-bold">
-                        Построение архитектуры данных для доверенного ИИ
+                        Building a Data Architecture for Trusted AI
                     </h3>
                     <p class="text text--small text--dark text--w-regular">
-                        Как Data Lakehouse-архитектура, управление данными DG, DQ, MDM (НСИ) и современная инфраструктура создают необходимую основу для эффективных ИИ-решений с реальной бизнес-ценностью для новой экономики. Посетите демо-зоны лучших решений по управлению данными  и выставку технологических партнёров.
-                    </p>
+                        How Data Lakehouse architecture, Data Governance (DG), Data Quality (DQ), Master Data Management (MDM), and modern infrastructure create the foundation for effective AI solutions with real business value for the new economy. Explore demo zones of top data management solutions and visit the exhibition of technology partners.                    </p>
                 </div>
                 <div class="about__wysiwyg">
                     <h3 class="title title--small title--blue title--w-bold">
-                        Экономика данных и новые цифровые работники на основе ИИ-агентов
+                        Data Economy and the Rise of AI-Based Digital Workers
                     </h3>
                     <p class="text text--small text--dark text--w-regular">
-                        Получите инсайты, как происходит переход от чат-ботов к полноценным ИИ-агентам: влияние на экономику данных и бизнес-процессы. Оценим готовность к появлению "цифровых работников по подписке" и их экономический эффект для бизнеса и государства.
-                    </p>
+                        Gain insights into the shift from chatbots to full-fledged AI agents and their impact on the data economy and business processes. Evaluate the readiness for "subscription-based digital workers" and their economic benefits for business and government.                    </p>
                 </div>
                 <div class="about__wysiwyg">
                     <h3 class="title title--small title--blue title--w-bold">
-                        Международный опыт реализации бизнес-инициатив, основанных на данных
+                        International Experience in Data-Driven Business Initiatives
                     </h3>
                     <p class="text text--small text--dark text--w-regular">
-                        Успешные проекты из Азербайджана, Израиля, Казахстана и Польши: универсальность лучших практик управления данными в разных географических и законодательных контекстах и их влияние на успех бизнес и ИИ-инициатив.
-                        Примите участие в практических воркшопах для бизнеса и архитекторов Data-платформ.
+                        Successful projects from Azerbaijan, Germany, Israel, Kazakhstan, Russia, and the UAE: the universality of best data management practices across different geographical and regulatory contexts, and their impact on the success of business and AI initiatives. Join practical business workshops led by Data platform architects.
                     </p>
                 </div>
             </div>
             <div class="about__descr text text--large text--dark text--w-regular center">
-                Эти и другие важные вопросы обсудим на форуме 22 апреля
+                These and other critical topics will be discussed at the forum on June 19.
             </div>
         </div>
     </section>
     <!-- /. About -->
+<?php endif; ?>
 
+<?php if($currentLanguage == 'az') : ?>
+    <!-- About -->
+    <section class="about block-padding" id="about" style="background: #f2f2f2;">
+        <div class="about__body container">
+            <h2 class="about__heading title title--big title--dark title--w-semibold title--indent center">
+                Forumun əsas istiqamətləri
+            </h2>
+            <div class="about__grid-wysiwyg">
+                <div class="about__wysiwyg">
+                    <h3 class="title title--small title--blue title--w-bold">
+                        Məlumat İqtisadiyyatı və Süni İntellekt: Rəqəmsal Dövlət üçün Strateji Zərurət
+                    </h3>
+                    <p class="text text--small text--dark text--w-regular">
+                        Məlumatların və süni intellektin idarə olunması sahəsində milli strategiyaların inkişafı. Texnoloji suverenliklə beynəlxalq əməkdaşlıq arasında tarazlığı necə tapmalı? Daxili və beynəlxalq ekosistemlər arasında qarşılıqlı faydalı münasibətlər qurarkən, kritik məlumatlara və süni intellekt sistemlərinə strateji nəzarət təmin edilə bilərmi?
+                    </p>
+                </div>
+                <div class="about__wysiwyg">
+                    <h3 class="title title--small title--blue title--w-bold">
+                        Etibarlı Süni İntellekt üçün Məlumat Arxitekturasının Qurulması
+                    </h3>
+                    <p class="text text--small text--dark text--w-regular">
+                        Data Lakehouse arxitekturası, məlumatların idarə olunması (DG), məlumat keyfiyyəti (DQ) və əsas məlumatların idarə olunması (MDM) yeni iqtisadiyyat üçün real biznes dəyəri olan süni intellekt həlləri üçün əsas yaradır. Ən yaxşı məlumat idarəetmə həllərinin demo zonalarını və texnologiya tərəfdaşlarının sərgisini ziyarət edin.
+                    </p>
+                </div>
+                <div class="about__wysiwyg">
+                    <h3 class="title title--small title--blue title--w-bold">
+                        Məlumat İqtisadiyyatı və Süni İntellekt Agentlərinə əsaslanan Yeni Rəqəmsal İşçilər
+                    </h3>
+                    <p class="text text--small text--dark text--w-regular">
+                        Çatbotlardan tam funksional süni intellekt agentlərinə keçid prosesi haqqında məlumat əldə edin: onların məlumat iqtisadiyyatına və biznes proseslərinə təsiri. “Abunəliklə rəqəmsal işçilər”in yaranmasına hazırlığı və onların biznes və dövlət üçün iqtisadi təsirini qiymətləndirəcəyik.
+                    </p>
+                </div>
+                <div class="about__wysiwyg">
+                    <h3 class="title title--small title--blue title--w-bold">
+                        Məlumatlara əsaslanan Biznes Təşəbbüslərinin Beynəlxalq Təcrübəsi
+                    </h3>
+                    <p class="text text--small text--dark text--w-regular">
+                        Azərbaycan, Almaniya, İsrail, Qazaxıstan, Rusiya və BƏƏ-dən uğurlu layihələr: müxtəlif coğrafi və normativ kontekstlərdə məlumat idarəetməsinin ən yaxşı təcrübələrinin universallığı və onların biznes və süni intellekt təşəbbüslərinin uğuruna təsiri. Məlumat platforması memarlarının biznes üçün praktik seminarlarında iştirak edin.
+                    </p>
+                </div>
+            </div>
+            <div class="about__descr text text--large text--dark text--w-regular center">
+                Bu və digər əsas məsələlər 19 iyun tarixində keçiriləcək forumda müzakirə olunacaq.
+            </div>
+        </div>
+    </section>
+    <!-- /. About -->
+<?php endif; ?>
+
+<?php if($currentLanguage == 'en') : ?>
     <!-- About -->
     <section class="about block-padding">
         <div class="about__body container">
             <h2 class="about__heading title title--big title--dark title--w-semibold title--indent center">
-                Для кого это мероприятие?
+                Who should attend?
             </h2>
             <div class="about__list">
                 <div class="about__item text text--large text--dark text--w-semibold">
-                    &mdash;  CDO, CIO, CAO и лидеры цифровой трансформации.
+                    &mdash;  CDOs, CIOs, CAOs, CFOs, and digital transformation leaders
                 </div>
                 <div class="about__item text text--large text--dark text--w-semibold">
-                    &mdash; Эксперты по управлению данными (Data Governance, Compliance).
+                    &mdash; Data governance and compliance experts
                 </div>
                 <div class="about__item text text--large text--dark text--w-semibold">
-                    &mdash; Руководители из банков, телекоммуникаций, гос. сектора и крупных компании.
+                    &mdash; Executives from banking, telecommunications, public sector, and large enterprises
                 </div>
                 <div class="about__item text text--large text--dark text--w-semibold">
-                    &mdash; Разработчики и архитекторы, желающие понять нюансы Data Lakehouse, MDM и грядущих AI-технологий.
+                    &mdash; Developers and architects seeking insights into Data Lakehouse, MDM, and emerging AI technologies
                 </div>
             </div>
         </div>
     </section>
     <!-- /. About -->
+<?php endif; ?>
+
+<?php if($currentLanguage == 'az') : ?>
+    <!-- About -->
+    <section class="about block-padding">
+        <div class="about__body container">
+            <h2 class="about__heading title title--big title--dark title--w-semibold title--indent center">
+                Tədbir kimlər üçündür?
+            </h2>
+            <div class="about__list">
+                <div class="about__item text text--large text--dark text--w-semibold">
+                    &mdash;  CDO, CIO, CAO, CFO və rəqəmsal transformasiya liderləri.
+                </div>
+                <div class="about__item text text--large text--dark text--w-semibold">
+                    &mdash; Məlumatların idarə olunması və uyğunluq üzrə mütəxəssislər.
+                </div>
+                <div class="about__item text text--large text--dark text--w-semibold">
+                    &mdash; Bank, telekommunikasiya, dövlət sektoru və iri şirkət rəhbərləri.
+                </div>
+                <div class="about__item text text--large text--dark text--w-semibold">
+                    &mdash; Data Lakehouse, MDM və yeni süni intellekt texnologiyalarını anlamaq istəyən tərtibatçılar və memarlar.
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /. About -->
+<?php endif; ?>
 
     <!-- Moder -->
     <!--    <section class="moder block-padding" id="moder">-->
@@ -177,11 +272,12 @@
     <!--    </section>-->
     <!-- /. Moder -->
 
+<?php if($currentLanguage == 'en') : ?>
     <!-- Team -->
     <section class="team bg--white block-padding center" id="speakers">
         <div class="team__body container">
             <h2 class="team__heading title title--big title--dark title--w-semibold title--indent">
-                К участию приглашены
+                Invited participants include
             </h2>
             <div class="team__items">
                 <!-- Team-card -->
@@ -194,7 +290,7 @@
                     <div class="team-card__body">
                         <div class="team-card__text">
                             <h3 class="team-card__heading title title--small title--dark title--w-regular">
-                                Канат Абиров
+                                Kanat Abirov
                             </h3>
                             <p class="team-card__descr text text--normal text--dark text--w-light">
                                 CEO DeoniX (DIS Group)
@@ -207,16 +303,443 @@
                 <article class="team-card">
                     <aside class="team-card__aside">
                         <figure class="team-card__figure">
-                            <img src="<?php echo STANDART_DIR ?>img/team/yaser.jpg" alt="" class="team-card__photo">
+                            <img src="<?php echo STANDART_DIR ?>img/team/salah.jpg" alt="" class="team-card__photo">
                         </figure>
                     </aside>
                     <div class="team-card__body">
                         <div class="team-card__text">
                             <h3 class="team-card__heading title title--small title--dark title--w-regular">
-                                Яссер Шауки
+                                Yasser Salah
                             </h3>
                             <p class="team-card__descr text text--normal text--dark text--w-light">
-                                Вице-президент, Informatica
+                                Head of Business 360, MENA Region, Informatica
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!-- /. Team-card -->
+                <!-- Team-card -->
+                <article class="team-card">
+                    <aside class="team-card__aside">
+                        <figure class="team-card__figure">
+                            <img src="<?php echo STANDART_DIR ?>img/team/alibek.jpg" alt="" class="team-card__photo">
+                        </figure>
+                    </aside>
+                    <div class="team-card__body">
+                        <div class="team-card__text">
+                            <h3 class="team-card__heading title title--small title--dark title--w-regular">
+                                Adilbek Sagadiev
+                            </h3>
+                            <p class="team-card__descr text text--normal text--dark text--w-light">
+                                Chief Technical Solutions Architect, NPC NB RK
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!-- /. Team-card -->
+                <!-- Team-card -->
+                <article class="team-card">
+                    <aside class="team-card__aside">
+                        <figure class="team-card__figure">
+                            <img src="<?php echo STANDART_DIR ?>img/team/zamula.jpg" alt="" class="team-card__photo">
+                        </figure>
+                    </aside>
+                    <div class="team-card__body">
+                        <div class="team-card__text">
+                            <h3 class="team-card__heading title title--small title--dark title--w-regular">
+                                Dmitry Zamula
+                            </h3>
+                            <p class="team-card__descr text text--normal text--dark text--w-light">
+                                CTO, Selena Data Platform
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!-- /. Team-card -->
+                <!-- Team-card -->
+                <article class="team-card">
+                    <aside class="team-card__aside">
+                        <figure class="team-card__figure">
+                            <img src="<?php echo STANDART_DIR ?>img/team/bolatt.jpg" alt="" class="team-card__photo">
+                        </figure>
+                    </aside>
+                    <div class="team-card__body">
+                        <div class="team-card__text">
+                            <h3 class="team-card__heading title title--small title--dark title--w-regular">
+                                Bolat Taimagambetov
+                            </h3>
+                            <p class="team-card__descr text text--normal text--dark text--w-light">
+                                Business Architect, DeoniX
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!-- /. Team-card -->
+                <!-- Team-card -->
+                <article class="team-card">
+                    <aside class="team-card__aside">
+                        <figure class="team-card__figure">
+                            <img src="<?php echo STANDART_DIR ?>img/team/rufat.jpg" alt="" class="team-card__photo">
+                        </figure>
+                    </aside>
+                    <div class="team-card__body">
+                        <div class="team-card__text">
+                            <h3 class="team-card__heading title title--small title--dark title--w-regular">
+                                Rufat Sadygov
+                            </h3>
+                            <p class="team-card__descr text text--normal text--dark text--w-light">
+                                Country Manager, DeoniX
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!-- /. Team-card -->
+                <!-- Team-card -->
+                <article class="team-card">
+                    <aside class="team-card__aside">
+                        <figure class="team-card__figure">
+                            <img src="<?php echo STANDART_DIR ?>img/avatar.png" alt="" class="team-card__photo">
+                        </figure>
+                    </aside>
+                    <div class="team-card__body">
+                        <div class="team-card__text">
+                            <h3 class="team-card__heading title title--small title--dark title--w-regular">
+                                Ilker Kurtulush
+                            </h3>
+                            <p class="team-card__descr text text--normal text--dark text--w-light">
+                                CDO, Pasha Bank
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!-- /. Team-card -->
+                <!-- Team-card -->
+                <article class="team-card">
+                    <aside class="team-card__aside">
+                        <figure class="team-card__figure">
+                            <img src="<?php echo STANDART_DIR ?>img/avatar.png" alt="" class="team-card__photo">
+                        </figure>
+                    </aside>
+                    <div class="team-card__body">
+                        <div class="team-card__text">
+                            <h3 class="team-card__heading title title--small title--dark title--w-regular">
+                                Frank Hendricks
+                            </h3>
+                            <p class="team-card__descr text text--normal text--dark text--w-light">
+                                Senior Director Channel Sales & Strategic Alliances – CEMEA
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!-- /. Team-card -->
+                <!-- Team-card -->
+                <article class="team-card">
+                    <aside class="team-card__aside">
+                        <figure class="team-card__figure">
+                            <img src="<?php echo STANDART_DIR ?>img/avatar.png" alt="" class="team-card__photo">
+                        </figure>
+                    </aside>
+                    <div class="team-card__body">
+                        <div class="team-card__text">
+                            <h3 class="team-card__heading title title--small title--dark title--w-regular">
+                                Azad Guseynov
+                            </h3>
+                            <p class="team-card__descr text text--normal text--dark text--w-light">
+                                CDO, SOCAR
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!-- /. Team-card -->
+                <!-- Team-card -->
+                <article class="team-card">
+                    <aside class="team-card__aside">
+                        <figure class="team-card__figure">
+                            <img src="<?php echo STANDART_DIR ?>img/avatar.png" alt="" class="team-card__photo">
+                        </figure>
+                    </aside>
+                    <div class="team-card__body">
+                        <div class="team-card__text">
+                            <h3 class="team-card__heading title title--small title--dark title--w-regular">
+                                Aslan Kurmanbayev
+                            </h3>
+                            <p class="team-card__descr text text--normal text--dark text--w-light">
+                                Technical Solutions Manager, Informatica
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!-- /. Team-card -->
+                <!-- Team-card -->
+                <article class="team-card">
+                    <aside class="team-card__aside">
+                        <figure class="team-card__figure">
+                            <img src="<?php echo STANDART_DIR ?>img/avatar.png" alt="" class="team-card__photo">
+                        </figure>
+                    </aside>
+                    <div class="team-card__body">
+                        <div class="team-card__text">
+                            <h3 class="team-card__heading title title--small title--dark title--w-regular">
+                                Elzana Omurzakova
+                            </h3>
+                            <p class="team-card__descr text text--normal text--dark text--w-light">
+                                Head of MDM & DG Solutions, Informatica
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!-- /. Team-card -->
+            </div>
+        </div>
+    </section>
+    <!-- /. Team -->
+<?php endif; ?>
+
+<?php if($currentLanguage == 'az') : ?>
+    <!-- Team -->
+    <section class="team bg--white block-padding center" id="speakers">
+        <div class="team__body container">
+            <h2 class="team__heading title title--big title--dark title--w-semibold title--indent">
+                İştirak etməyə dəvət olunur
+            </h2>
+            <div class="team__items">
+                <!-- Team-card -->
+                <article class="team-card">
+                    <aside class="team-card__aside">
+                        <figure class="team-card__figure">
+                            <img src="<?php echo STANDART_DIR ?>img/team/kanat.jpg" alt="" class="team-card__photo">
+                        </figure>
+                    </aside>
+                    <div class="team-card__body">
+                        <div class="team-card__text">
+                            <h3 class="team-card__heading title title--small title--dark title--w-regular">
+                                Kanat Abirov
+                            </h3>
+                            <p class="team-card__descr text text--normal text--dark text--w-light">
+                                CEO DeoniX (DIS Group)
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!-- /. Team-card -->
+                <!-- Team-card -->
+                <article class="team-card">
+                    <aside class="team-card__aside">
+                        <figure class="team-card__figure">
+                            <img src="<?php echo STANDART_DIR ?>img/team/salah.jpg" alt="" class="team-card__photo">
+                        </figure>
+                    </aside>
+                    <div class="team-card__body">
+                        <div class="team-card__text">
+                            <h3 class="team-card__heading title title--small title--dark title--w-regular">
+                                Yasser Salah
+                            </h3>
+                            <p class="team-card__descr text text--normal text--dark text--w-light">
+                                Business 360 rəhbəri, Yaxın Şərq və Afrika bölgəsi, Informatica
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!-- /. Team-card -->
+                <!-- Team-card -->
+                <article class="team-card">
+                    <aside class="team-card__aside">
+                        <figure class="team-card__figure">
+                            <img src="<?php echo STANDART_DIR ?>img/team/alibek.jpg" alt="" class="team-card__photo">
+                        </figure>
+                    </aside>
+                    <div class="team-card__body">
+                        <div class="team-card__text">
+                            <h3 class="team-card__heading title title--small title--dark title--w-regular">
+                                Adilbek Sagadiev
+                            </h3>
+                            <p class="team-card__descr text text--normal text--dark text--w-light">
+                                Texniki həllərin baş memarı, Qazaxıstan Respublikasının Milli Bankı yanında Elmi-istehsalat kompleksi NPC NB RK
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!-- /. Team-card -->
+                <!-- Team-card -->
+                <article class="team-card">
+                    <aside class="team-card__aside">
+                        <figure class="team-card__figure">
+                            <img src="<?php echo STANDART_DIR ?>img/team/zamula.jpg" alt="" class="team-card__photo">
+                        </figure>
+                    </aside>
+                    <div class="team-card__body">
+                        <div class="team-card__text">
+                            <h3 class="team-card__heading title title--small title--dark title--w-regular">
+                                Dmitri Zamula
+                            </h3>
+                            <p class="team-card__descr text text--normal text--dark text--w-light">
+                                Texniki direktor, Selena Məlumat Platforması
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!-- /. Team-card -->
+                <!-- Team-card -->
+                <article class="team-card">
+                    <aside class="team-card__aside">
+                        <figure class="team-card__figure">
+                            <img src="<?php echo STANDART_DIR ?>img/team/bolatt.jpg" alt="" class="team-card__photo">
+                        </figure>
+                    </aside>
+                    <div class="team-card__body">
+                        <div class="team-card__text">
+                            <h3 class="team-card__heading title title--small title--dark title--w-regular">
+                                Bolat Taymağambetov
+                            </h3>
+                            <p class="team-card__descr text text--normal text--dark text--w-light">
+                                biznes memarı, DeoniX
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!-- /. Team-card -->
+                <!-- Team-card -->
+                <article class="team-card">
+                    <aside class="team-card__aside">
+                        <figure class="team-card__figure">
+                            <img src="<?php echo STANDART_DIR ?>img/team/rufat.jpg" alt="" class="team-card__photo">
+                        </figure>
+                    </aside>
+                    <div class="team-card__body">
+                        <div class="team-card__text">
+                            <h3 class="team-card__heading title title--small title--dark title--w-regular">
+                                Rufat Sadygov
+                            </h3>
+                            <p class="team-card__descr text text--normal text--dark text--w-light">
+                                Country Manager, DeoniX
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!-- /. Team-card -->
+                <!-- Team-card -->
+                <article class="team-card">
+                    <aside class="team-card__aside">
+                        <figure class="team-card__figure">
+                            <img src="<?php echo STANDART_DIR ?>img/avatar.png" alt="" class="team-card__photo">
+                        </figure>
+                    </aside>
+                    <div class="team-card__body">
+                        <div class="team-card__text">
+                            <h3 class="team-card__heading title title--small title--dark title--w-regular">
+                                Ilker Kurtulush
+                            </h3>
+                            <p class="team-card__descr text text--normal text--dark text--w-light">
+                                CDO, Pasha Bank
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!-- /. Team-card -->
+                <!-- Team-card -->
+                <article class="team-card">
+                    <aside class="team-card__aside">
+                        <figure class="team-card__figure">
+                            <img src="<?php echo STANDART_DIR ?>img/avatar.png" alt="" class="team-card__photo">
+                        </figure>
+                    </aside>
+                    <div class="team-card__body">
+                        <div class="team-card__text">
+                            <h3 class="team-card__heading title title--small title--dark title--w-regular">
+                                Frank Hendricks
+                            </h3>
+                            <p class="team-card__descr text text--normal text--dark text--w-light">
+                                Senior Director Channel Sales & Strategic Alliances – CEMEA
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!-- /. Team-card -->
+                <!-- Team-card -->
+                <article class="team-card">
+                    <aside class="team-card__aside">
+                        <figure class="team-card__figure">
+                            <img src="<?php echo STANDART_DIR ?>img/avatar.png" alt="" class="team-card__photo">
+                        </figure>
+                    </aside>
+                    <div class="team-card__body">
+                        <div class="team-card__text">
+                            <h3 class="team-card__heading title title--small title--dark title--w-regular">
+                                Azad Guseynov
+                            </h3>
+                            <p class="team-card__descr text text--normal text--dark text--w-light">
+                                CDO, SOCAR
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!-- /. Team-card -->
+                <!-- Team-card -->
+                <article class="team-card">
+                    <aside class="team-card__aside">
+                        <figure class="team-card__figure">
+                            <img src="<?php echo STANDART_DIR ?>img/avatar.png" alt="" class="team-card__photo">
+                        </figure>
+                    </aside>
+                    <div class="team-card__body">
+                        <div class="team-card__text">
+                            <h3 class="team-card__heading title title--small title--dark title--w-regular">
+                                Aslan Kurmanbayev
+                            </h3>
+                            <p class="team-card__descr text text--normal text--dark text--w-light">
+                                Technical Solutions Manager, Informatica
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!-- /. Team-card -->
+                <!-- Team-card -->
+                <article class="team-card">
+                    <aside class="team-card__aside">
+                        <figure class="team-card__figure">
+                            <img src="<?php echo STANDART_DIR ?>img/avatar.png" alt="" class="team-card__photo">
+                        </figure>
+                    </aside>
+                    <div class="team-card__body">
+                        <div class="team-card__text">
+                            <h3 class="team-card__heading title title--small title--dark title--w-regular">
+                                Elzana Omurzakova
+                            </h3>
+                            <p class="team-card__descr text text--normal text--dark text--w-light">
+                                Head of MDM & DG Solutions, Informatica
+                            </p>
+                        </div>
+                    </div>
+                </article>
+                <!-- /. Team-card -->
+            </div>
+        </div>
+    </section>
+    <!-- /. Team -->
+<?php endif; ?>
+
+<?php if($currentLanguage == 'az') : ?>
+    <!-- Team -->
+    <section class="team bg--white block-padding center" id="speakers">
+        <div class="team__body container">
+            <h2 class="team__heading title title--big title--dark title--w-semibold title--indent">
+                İştirak etməyə dəvət olunur
+            </h2>
+            <div class="team__items">
+                <!-- Team-card -->
+                <article class="team-card">
+                    <aside class="team-card__aside">
+                        <figure class="team-card__figure">
+                            <img src="<?php echo STANDART_DIR ?>img/team/kanat.jpg" alt="" class="team-card__photo">
+                        </figure>
+                    </aside>
+                    <div class="team-card__body">
+                        <div class="team-card__text">
+                            <h3 class="team-card__heading title title--small title--dark title--w-regular">
+                                Kanat Abirov
+                            </h3>
+                            <p class="team-card__descr text text--normal text--dark text--w-light">
+                                CEO DeoniX (DIS Group)
                             </p>
                         </div>
                     </div>
@@ -321,26 +844,7 @@
                 <article class="team-card">
                     <aside class="team-card__aside">
                         <figure class="team-card__figure">
-                            <img src="<?php echo STANDART_DIR ?>img/avatar.png" alt="" class="team-card__photo">
-                        </figure>
-                    </aside>
-                    <div class="team-card__body">
-                        <div class="team-card__text">
-                            <h3 class="team-card__heading title title--small title--dark title--w-regular">
-                                Aleksey Lukovnikov
-                            </h3>
-                            <p class="team-card__descr text text--normal text--dark text--w-light">
-                                Independent Expert
-                            </p>
-                        </div>
-                    </div>
-                </article>
-                <!-- /. Team-card -->
-                <!-- Team-card -->
-                <article class="team-card">
-                    <aside class="team-card__aside">
-                        <figure class="team-card__figure">
-                            <img src="<?php echo STANDART_DIR ?>img/avatar.png" alt="" class="team-card__photo">
+                            <img src="<?php echo STANDART_DIR ?>img/team/rufat.jpg" alt="" class="team-card__photo">
                         </figure>
                     </aside>
                     <div class="team-card__body">
@@ -388,25 +892,6 @@
                             </h3>
                             <p class="team-card__descr text text--normal text--dark text--w-light">
                                 Senior Director Channel Sales & Strategic Alliances – CEMEA
-                            </p>
-                        </div>
-                    </div>
-                </article>
-                <!-- /. Team-card -->
-                <!-- Team-card -->
-                <article class="team-card">
-                    <aside class="team-card__aside">
-                        <figure class="team-card__figure">
-                            <img src="<?php echo STANDART_DIR ?>img/avatar.png" alt="" class="team-card__photo">
-                        </figure>
-                    </aside>
-                    <div class="team-card__body">
-                        <div class="team-card__text">
-                            <h3 class="team-card__heading title title--small title--dark title--w-regular">
-                                Avi Cohen
-                            </h3>
-                            <p class="team-card__descr text text--normal text--dark text--w-light">
-                                Leumi Bank
                             </p>
                         </div>
                     </div>
@@ -473,6 +958,8 @@
         </div>
     </section>
     <!-- /. Team -->
+<?php endif; ?>
+
 <?php if($currentLanguage == 'en') : ?>
     <!-- Programm -->
     <section class="programm block-padding" id="program">
@@ -629,14 +1116,14 @@
                         <h3 class="programm__title title title--medium title--dark title--w-semibold">
                             Case: Implementing Data Governance in a Financial Regulator
                         </h3>
-                        <div class="programm__man">
-                            <div class="programm__man-name text text--normal text--dark text--w-semibold">
-                                Aleksey Lukovnikov
-                            </div>
-                            <div class="programm__man-rank text text--normal text--dark text--w-semibold">
-                                Independent Expert
-                            </div>
-                        </div>
+<!--                        <div class="programm__man">-->
+<!--                            <div class="programm__man-name text text--normal text--dark text--w-semibold">-->
+<!--                                Aleksey Lukovnikov-->
+<!--                            </div>-->
+<!--                            <div class="programm__man-rank text text--normal text--dark text--w-semibold">-->
+<!--                                Independent Expert-->
+<!--                            </div>-->
+<!--                        </div>-->
                     </div>
                 </div>
 
@@ -1258,7 +1745,12 @@
     <section class="partners block-padding" id="partners">
         <div class="partners__body container">
             <h2 class="partners__heading title title--big title--dark title--w-semibold title--indent gs-reveal gs-reveal--from-left">
-                При поддержке
+                <?php if($currentLanguage == 'en') : ?>
+                    Organizer
+                <?php endif; ?>
+                <?php if($currentLanguage == 'az') : ?>
+                    Təşkilatçı
+                <?php endif; ?>
             </h2>
             <div class="partners__card">
                 <aside class="partners__card-aside">
@@ -1268,10 +1760,18 @@
                 </aside>
                 <div class="partners__card-text">
                     <p class="partners__card-descr text text--large text--dark text--w-semibold">
-                        Решения по управлению данными, бизнес-аналитике, защите информации и управлению знаниями. Мы упрощаем работу с данными и информацией, предоставляя новые возможности для роста бизнеса.
-                        <br>
-                        <br>
-                        Компания является частью международного холдинга Aman Group.
+                        <?php if($currentLanguage == 'en') : ?>
+                            Solutions for data management, business analytics, information security, and knowledge management. We simplify data and information workflows, offering new opportunities for business growth.
+                            <br>
+                            <br>
+                            The company is part of the international Aman Group holding.
+                        <?php endif; ?>
+                        <?php if($currentLanguage == 'az') : ?>
+                            Məlumatların idarə olunması, biznes analitikası, informasiya təhlükəsizliyi və biliklərin idarə olunması üzrə həllər. Biz məlumat və informasiya ilə işi sadələşdiririk və biznesin inkişafı üçün yeni imkanlar yaradırıq.
+                            <br>
+                            <br>
+                            Şirkət beynəlxalq Aman Group holdinqinin tərkib hissəsidir.
+                        <?php endif; ?>
                     </p>
                 </div>
             </div>
@@ -1279,7 +1779,7 @@
     </section>
     <!-- /. Partners -->
 
-    <section class="info-partners block-padding" id="partners">
+    <section class="info-partners block-padding" id="partners" style="display:none;">
         <div class="info-partners__body container">
             <h3 class="info-partners__heading title title--big title--dark title--w-semibold title--indent gs-reveal gs-reveal--from-left">
                 Информационные партнёры
